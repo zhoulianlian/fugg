@@ -1,0 +1,144 @@
+﻿<html>
+	<head>
+		<meta charset="utf-8" /> 
+		<title>
+			DEMO
+		</title>
+		<style>
+			*{
+				font-family: 思源黑体 CN;
+				margin:0px;
+				padding:0px;
+			}
+			.box {
+				display: flex;
+				justify-content: center; /* 水平居中 */
+				align-items: center;     /* 垂直居中 */
+				width: 100%;
+				height: 100%;
+				background:#F7F7F7;
+			}
+			.inner{
+				width:500px;
+				height:50px;
+				margin-top:-290px;
+			}
+			
+			.logo{
+				border:2px solid gray;
+				width:120px;
+				height:120px;
+				border-radius: 100%;
+				background-image:url(http://www.youtiy.com/pages/skin/images/head.jpg);
+				background-size: cover;
+				margin:0px auto;
+				
+			}
+			
+			 .menu{
+				height:40px;
+				width:430px;
+				margin:0px auto;
+				margin-top:20px;
+				font-size:.9em;
+			}
+
+			 .menu ul{
+				line-height:2.3em;
+				font-size:1.2em;
+				color:white;
+			}
+			 .menu ul li{
+				list-style-type:none;
+				padding:0; /* 将默认的内边距去掉 */
+				margin:0; /* 将默认的外边距去掉 */
+				float:left; /* 往左浮动 */
+				margin-left:30px;
+				
+			}
+			.menu a:link {
+				color:black;
+				text-decoration:none;
+			}
+
+			.menu a:visited {
+				color:black;
+				text-decoration:none;
+			}
+				
+			.menu a:hover {
+				color:black;
+				text-decoration:none;
+				background-image: linear-gradient(to top,currentColor,currentColor 2px,transparent 2px);
+				padding-bottom:5px;
+			}
+				
+			.menu  a:active {
+				color:black;
+				text-decoration:none;
+			}
+			.sercher{
+				margin:0px auto;
+				text-align:center;
+				margin-top:20px;
+			}
+			.sertext{
+				height:32px;
+				width:250px;
+			}
+			.sercher span{
+				display:inline-block;
+				background:#FF4040;
+				color:white;
+				text-align:center;
+				width:100px;
+				height:32px;
+				margin-left:10px;
+				line-height:32px;
+				cursor:pointer;
+			}
+			footer{
+				text-align:center;
+				margin-top:80px;
+			}
+			footer p:nth-child(1){
+				color:#FF4040;
+				font-size:1.3em;
+			}
+			footer p:nth-child(2){
+				font-size:13px;
+				margin-top:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			 <section class="inner">
+				<div class="logo">
+				</div>
+				<div class="menu">
+							<ul>
+								<li>
+									<a href="test.html" class="default-link">个人简历</a>
+								</li>
+								<li>
+									<a href="timg.jpg">我的照片</a>
+								</li>
+								<li>
+									<a href="20130523093711_k5au5.jpeg">个人生活</a>
+								</li>
+								<li>
+									<a href="20160215093848_UmkNJ.jpeg">感悟思语</a>
+								</li>
+							</ul>
+				</div>
+				<div class="sercher">
+
+				</div>
+				<footer>
+
+				</footer>
+			 </section>
+		</div>
+	</body>
+</html>
